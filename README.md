@@ -1,10 +1,9 @@
-87 % des Speicherplatzes belegt … Wenn dir der Speicherplatz ausgeht, kannst du keine Dateien mehr in Google Drive speichern oder Inhalte in Google Fotos sichern. Hol dir 1 Monat lang 100 GB Speicherplatz für 1,99 € 0,49 € (personalisierter Preis).
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meine Social Links</title>
+  <title>soziallinkmd.de</title>
   <style>
     @keyframes rgbBackground {
       0% { background-color: rgb(255, 0, 0); }
@@ -68,7 +67,7 @@
   </style>
 </head>
 <body>
-  <h1>Meine Links</h1>
+  <h1>soziallinkmd.de</h1>
   <div class="link-container">
     <a href="https://www.tiktok.com/@mav_17" target="_blank">TikTok ansehen</a>
     <a href="https://www.youtube.com/@marvinbs0" target="_blank">YouTube ansehen</a>
