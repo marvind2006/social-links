@@ -1,1 +1,80 @@
-# social-links
+87 % des Speicherplatzes belegt … Wenn dir der Speicherplatz ausgeht, kannst du keine Dateien mehr in Google Drive speichern oder Inhalte in Google Fotos sichern. Hol dir 1 Monat lang 100 GB Speicherplatz für 1,99 € 0,49 € (personalisierter Preis).
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meine Social Links</title>
+  <style>
+    @keyframes rgbBackground {
+      0% { background-color: rgb(255, 0, 0); }
+      33% { background-color: rgb(0, 255, 0); }
+      66% { background-color: rgb(0, 0, 255); }
+      100% { background-color: rgb(255, 0, 0); }
+    }
+
+    @keyframes rgbText {
+      0% { color: rgb(255, 0, 0); }
+      33% { color: rgb(0, 255, 0); }
+      66% { color: rgb(0, 0, 255); }
+      100% { color: rgb(255, 0, 0); }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      animation: rgbBackground 10s infinite linear;
+      color: #ffffff;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.23); /* 7% heller als vorher */
+      animation: rgbText 5s infinite linear;
+      border-radius: 12px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px); /* Weichzeichner-Effekt */
+      -webkit-backdrop-filter: blur(10px); /* Für Safari */
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    a {
+      background-color: #1e1e1e;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      color: #00ffcc;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #333333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meine Links</h1>
+  <div class="link-container">
+    <a href="https://www.tiktok.com/@mav_17" target="_blank">TikTok ansehen</a>
+    <a href="https://www.youtube.com/@marvinbs0" target="_blank">YouTube ansehen</a>
+    <a href="https://www.snapchat.com/add/marvinduckreal" target="_blank">Snapchat hinzufügen</a>
+    <a href="https://www.instagram.com/dmarvindueck2006" target="_blank">Instagram ansehen</a>
+    <a href="tel:+4915753678804">Anrufen: +49 1575 3678804</a>
+  </div>
+</body>
+</html>
